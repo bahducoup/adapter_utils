@@ -3,7 +3,7 @@ import torch.nn as nn
 
 from fairseq.models.wav2vec.wav2vec2 import TransformerSentenceEncoderLayer
 
-from adapter import Adapter
+from adapters.adapter import Adapter
 
 
 class AdapterTransformerSentenceEncoderLayer(TransformerSentenceEncoderLayer):

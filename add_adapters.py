@@ -1,6 +1,6 @@
 import numpy as np
 
-from adapter_transformer import AdapterTransformerSentenceEncoderLayer
+from adapters.adapter_transformer import AdapterTransformerSentenceEncoderLayer
 
 
 def add_adapters_wav2vec2(wav2vec2_model, adapter_down_dim, adapt_layers=None):
